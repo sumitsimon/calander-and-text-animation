@@ -1,0 +1,84 @@
+.green{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    margin: 10px;
+
+}
+
+
+
+.blue{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    margin: 10px;
+}
+
+.red{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    margin: 10px;
+}
+
+.green #a{
+    color: grey;
+    font-weight: bold;
+}
+
+.green #ah{
+    color: white;
+    background-color: rgb(49, 224, 49);
+    border: 1px solid;
+    padding: 2px;
+    animation-name: gh;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes gh{
+    from {background-color: green;}
+    to {background-color: orange;}
+}
+
+
+.blue #b{
+    color: grey;
+    font-weight: bold;
+}
+
+.blue #bh{
+    color: white;
+    background-color:rgb(60, 0, 255);
+    border: 1px solid;
+    padding: 2px;
+    animation-name: bh;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes bh{
+    from { background-color: blue;}
+    to {background-color: violet;}
+}
+
+.red #c{
+    color: grey;
+    font-weight: bold;
+}
+
+.red #ch{
+    color: white;
+    background-color:red;
+    border: 1px solid;
+    padding: 2px;
+    animation-name: rh;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes rh{
+    from {background-color: red;}
+    to {background-color: pink;}
+}
